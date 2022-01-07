@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" width="100px" height="100px" src="./assets/images/footprint.png">
-    <Index msg="익명의 작가"/>
+    <Index />
+    <Footer />
   </div>
 </template>
 
 <script>
 import Index from './components/index.vue'
+import Footer from './components/footer.vue'
 
 export default {
   name: 'App',
   components: {
-    Index
+    Index,
+    Footer
   }
 }
 </script>
@@ -19,10 +21,10 @@ export default {
 <style>
 
 @font-face {
-  font-family: 'Amsterdam';
-  src: url('assets/fonts/amsterdam.ttf') format('truetype');
-  font-weight: bolder;
-  font-style: normal;
+    font-family: 'YeolrinMyeongjo-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/YeolrinMyeongjo-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 #app {
