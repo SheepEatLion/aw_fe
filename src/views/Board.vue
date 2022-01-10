@@ -1,21 +1,22 @@
 <template>
   <div id="board">
+    <p> test aa </p>
     <Post />
-    <Paging />
+    <!--<Paging />-->
     <Footer />
   </div>
 </template>
 
 <script>
-import Post from './components/post.vue'
-import Paging from './components/paging.vue'
-import Footer from './components/footer.vue'
+import Post from '../components/post.vue'
+//import Paging from './components/paging.vue'
+import Footer from '../components/footer.vue'
 
 export default {
   name: 'Board',
   components: {
     Post,
-    Paging,
+    //Paging,
     Footer
   }
 }
