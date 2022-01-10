@@ -1,19 +1,20 @@
 <template>
   <div id="app">
-    <Index />
-    <Footer />
+    <router-view></router-view>
+    <!--<Index />
+    <Footer />-->
   </div>
 </template>
 
 <script>
-import Index from './components/index.vue'
-import Footer from './components/footer.vue'
+//import Index from './components/index.vue'
+//import Footer from './components/footer.vue'
 
 export default {
   name: 'App',
   components: {
-    Index,
-    Footer
+    //Index,
+    //Footer
   }
 }
 </script>
@@ -28,7 +29,7 @@ export default {
 }
 
 #app {
-  font-family: 'Amsterdam';
+  font-family: 'YeolrinMyeongjo-Medium';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
