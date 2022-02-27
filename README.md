@@ -1,4 +1,5 @@
-# aw_fe
+# Go Liverpool
+***(리버풀 팬들의 모임 사이트 개발 예정, 4월 이후 개발)***
 
 ## Project setup
 ```
